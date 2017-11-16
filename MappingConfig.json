@@ -1,0 +1,12 @@
+{
+    "drives":[
+        {
+            "driveletter":"m",
+            "drivefolder":"music"
+        },
+        {
+            "driveletter":"v",
+            "drivefolder":"video"
+        }
+    ]
+}
