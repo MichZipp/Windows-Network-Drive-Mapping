@@ -6,7 +6,7 @@ This tool is usefull, if you have a large number of network drives and a large n
 This tool was tested sucessfully under Python 2.7.14!
 
 ## Configuration 
-The `UserConfig.json` defines the user of the network drive, if user authentication is set:
+If user authentication is set, the `UserConfig.json` defines the user of the network drive:
 ```json
 {
     "authentication": true,
