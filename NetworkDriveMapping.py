@@ -17,11 +17,9 @@ for drive in mapping['drives']:
     folder = drive['drivefolder']
     if(authentication == True):
          print('net use ' + letter + ': ' + folder + ' /user:' + username + ' ' + password)
-        # Connect to shared drive, use drive letter M
         # subprocess.call(r'net use ' + letter + ': ' + folder + ' /user:' + username + ' ' + password, shell=True)
     else:
          print('net use ' + letter + ': ' + folder)
-        # Connect to shared drive, use drive letter M
         # subprocess.call(r'net use ' + letter + ': ' + folder, shell=True)
 
 print('Mapping Finished!')
